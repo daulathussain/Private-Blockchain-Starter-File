@@ -1,0 +1,36 @@
+{
+  "name": "private-blockchain",
+  "version": "1.0.0",
+  "description": "A complete private blockchain with native currency, MetaMask integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "clear": "rm -rf node_modules package-lock.json"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "metamask",
+    "smart-contracts",
+    "private-blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ethereumjs/blockchain": "^10.1.0",
+    "@ethereumjs/common": "^10.1.0",
+    "@ethereumjs/tx": "^10.1.0",
+    "@ethereumjs/vm": "^10.1.0",
+    "body-parser": "^2.2.1",
+    "elliptic": "^6.6.1",
+    "ethereumjs-util": "^7.1.5",
+    "express": "^5.1.0",
+    "level": "^10.0.0",
+    "merkle-patricia-tree": "^4.2.4",
+    "sha256": "^0.2.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "axios": "^1.13.2"
+  }
+}
